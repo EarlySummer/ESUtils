@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOIUtils", "NPOIUtils\NPOIUtils.csproj", "{22460BF8-3550-4037-A3BC-21F5702950A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESUtils.Core", "ESUtils.Core\ESUtils.Core.csproj", "{60954F1F-F7F0-49B4-865F-DF1009D85C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESUtils.DevExpressExtensions", "ESUtils.DevExpressExtensions\ESUtils.DevExpressExtensions.csproj", "{96D5D37F-C95E-44B2-9F62-54AB84459E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{22460BF8-3550-4037-A3BC-21F5702950A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22460BF8-3550-4037-A3BC-21F5702950A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22460BF8-3550-4037-A3BC-21F5702950A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60954F1F-F7F0-49B4-865F-DF1009D85C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60954F1F-F7F0-49B4-865F-DF1009D85C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60954F1F-F7F0-49B4-865F-DF1009D85C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60954F1F-F7F0-49B4-865F-DF1009D85C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
