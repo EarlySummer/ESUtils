@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESUtils.Core", "ESUtils.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESUtils.DevExpressExtensions", "ESUtils.DevExpressExtensions\ESUtils.DevExpressExtensions.csproj", "{96D5D37F-C95E-44B2-9F62-54AB84459E41}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{449AA59C-D901-469E-9D5C-66295FAD9B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESUtils.DevExpressExtensions.Tests", "ESUtils.DevExpressExtensions.Tests\ESUtils.DevExpressExtensions.Tests.csproj", "{C492266B-4F49-4BF7-B401-EDF055829177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D5D37F-C95E-44B2-9F62-54AB84459E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C492266B-4F49-4BF7-B401-EDF055829177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C492266B-4F49-4BF7-B401-EDF055829177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C492266B-4F49-4BF7-B401-EDF055829177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C492266B-4F49-4BF7-B401-EDF055829177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C492266B-4F49-4BF7-B401-EDF055829177} = {449AA59C-D901-469E-9D5C-66295FAD9B7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AA3D305-2D8D-4C6C-9D40-D0DCBE3DE2EF}

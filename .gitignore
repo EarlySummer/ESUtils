@@ -10,3 +10,6 @@
 /src/ESUtils.Core/bin/Debug
 /src/ESUtils.Core/obj/Debug
 /src/ESUtils.DevExpressExtensions/obj/Debug
+/src/ESUtils.DevExpressExtensions/bin/Debug
+/src/ESUtils.DevExpressExtensions.Tests/obj/Debug
+/src/ESUtils.DevExpressExtensions.Tests/bin/Debug
